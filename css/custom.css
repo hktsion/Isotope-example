@@ -1,0 +1,51 @@
+	* { margin:0; padding:0;}
+	html, body{ width: 100%; }
+	main{ 
+		width: 90%; 
+		margin: 30px auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Krona One', sans-serif;
+	}
+	div#listado-productos{
+		width: 100%;
+		position: relative;
+		display: flex; 
+		box-sizing: border-box;
+	}
+
+	div#listado-productos{ 
+		width: 100%; 
+		flex-direction: row;
+		align-items: center;
+		box-sizing: border-box;
+	}
+	div.producto{
+		width: 250px;
+		position: relative;
+		top: 120px;
+		border-top: 30px solid crimson;
+		padding: 10px;
+		background: #e1e1e1;
+		margin:10px;
+		flex-direction: column;
+		min-height: 280px;
+		height: 300px;
+		text-align: center;
+		position: relative;
+	}
+	img{ max-width: 200px;  height: 120px; margin-bottom: 20px;}
+	h3.titulo{ color: #212121; min-height: 120px; text-transform: uppercase;}
+	p.stitulo{ font-size: 12px; }
+	p.number{ color: crimson; font-size: 1rem; }
+	select{
+		padding: 10px 30px;
+		background: #212121;
+		color: antiquewhite;
+		border: 2px solid #212121;
+		font-family: 'Krona One', sans-serif;
+
+	}
+	select option{ margin: 10px 0px; }
